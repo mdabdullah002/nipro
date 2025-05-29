@@ -1,0 +1,136 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+/* common start  */
+:root{
+    --black:#333333;
+    --ash:#8e8e8e;
+    --rob:"Roboto", sans-serif;
+    --loto:"Lato", sans-serif;
+}
+
+body{
+    font-family: var(--loto);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ash);
+}
+/* common end */
+/* header start  */
+header{
+    padding: 5px 0;
+}
+.c_navbar{}
+.logo{}
+.h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--black);
+}
+.menu{}
+.menu ul li a{
+    padding: 0 30px !important;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--ash) !important;
+}
+.menu ul li a:hover{
+    color: var(--black) !important;
+}
+/* header end */
+/* slider start  */
+.slider{
+    background: url(../img/slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.s_content{
+    margin: 200px 0;
+}
+.s_content h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.s_content p{
+    margin: 40px 90px 60px 0px;
+    font-family: var(--rob);
+    line-height: 35px;
+}
+.common_link{
+    padding: 10px 0 10px 30px;
+    font-family: var(--rob);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black) !important;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+.common_i{
+    padding: 0 15px;
+}
+.c_link{
+    font-family: var(--rob);
+    font-size: 16px;
+    font-weight: 400;
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+}
+.c_btn{
+    color: #8e8e8e;
+}
+/* slider end  */
+/* welcome start  */
+.welcome{
+    padding: 100px 0 120px;
+}
+.h{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--black);
+    text-transform: uppercase;
+}
+.p{
+    padding-top: 50px;
+    line-height: 30px;
+}
+.w_content{
+    margin-top: 100px;
+    padding: 0 0 50px;
+    border: 1px solid;
+}
+.w_content:hover{
+    box-shadow: 0px 20px 40px 0px #0000001A;
+}
+.p_icon{
+    width: 100px;
+    margin: -20px auto 20px;
+    background-color: white;
+}
+.p_icon i{
+    font-size: 60px;
+}
+.w_h2{
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--black);
+}
+.w_p{
+    margin: 30px 0 40px;
+}
+.w_link{
+    font-family: var(--rob);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--ash) !important;
+    text-transform: uppercase;
+}
+.w_link:hover{
+    color: var(--black) !important;
+}
+.w_i{
+    padding-left: 12px;
+}
+/* welcome end */
